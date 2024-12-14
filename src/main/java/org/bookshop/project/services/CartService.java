@@ -7,13 +7,25 @@ import java.util.List;
 
 public class CartService {
 
-    void deleteCart() {
-
-    }
-
-    public List<Book> getCartContentByUser(Long UserId) {
+    /**
+     * It is an automatic method ->
+     * If user choose books it became a cartItem and it will add to the Cart.
+     */
+    public Book addBookToCart(Long userId) {
         return null;
     }
 
+    /**
+     * The user can delet his/her Cart.
+     */
+    void deleteCart() {
+
+    }
+    /**
+     * User and admin can get the content of a Cart.
+     */
+    public List<Book> getCartContentByUser(Long UserId) {
+        return null;
+    }
 
 }

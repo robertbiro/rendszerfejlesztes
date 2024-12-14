@@ -17,4 +17,6 @@ public class Book {
     private String publishingPlace;
     private BookCategory bookCategory;
     private int stock;
+
+    //One book belong to many Reservation:OneToMany connection
 }

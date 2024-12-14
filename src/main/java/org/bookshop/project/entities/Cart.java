@@ -7,4 +7,6 @@ public class Cart {
 
     private ApplicationUser applicationUser;
     private List<CartItem> booksInCart = new ArrayList<>();
+
+    //One Cart has many CartItem:OneToMany connection
 }

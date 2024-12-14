@@ -8,4 +8,7 @@ public class Reservation {
     private Book book;
     private LocalDateTime createdAt;
 
+    //many reservation belong to one user
+    //many reservation belong to one book
+
 }

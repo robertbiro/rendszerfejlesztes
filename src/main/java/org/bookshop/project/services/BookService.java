@@ -9,7 +9,9 @@ public class BookService {
     //only the admins has right to use these functions
     //only for the task description, it will not be the part of the final code:
     private final Map<Long, Book> books = new HashMap<>();
-
+    /**
+     * The admin can add new book to the "storage"
+     */
     public Book addBook(Long bookId) {
         Book book = new Book();
         book.setId(bookId);
@@ -18,7 +20,9 @@ public class BookService {
         books.put(bookId, book);
         return book;
     }
-
+    /**
+     * The admin can add update the book details.
+     */
     public Book updateBook(Long bookId) {
         Book book = books.get(bookId);
         if (book != null) {
@@ -31,7 +35,9 @@ public class BookService {
         }
         return null;
     }
-
+    /**
+     * The admin can delete the book from the "storage".
+     */
     public Book deleteBook(Long bookId) {
         return books.remove(bookId);
     }

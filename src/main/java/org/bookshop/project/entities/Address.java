@@ -8,4 +8,5 @@ public class Address {
     private String state;
     private String postalCode;
     private String country;
+    //one address belong to one user: OneToOne connections
 }
