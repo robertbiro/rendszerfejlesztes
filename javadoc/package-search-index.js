@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.bookshop.project"},{"l":"org.bookshop.project.entities"},{"l":"org.bookshop.project.repositories"},{"l":"org.bookshop.project.service.BookService"},{"l":"org.bookshop.project.services"}];updateSearchResults();

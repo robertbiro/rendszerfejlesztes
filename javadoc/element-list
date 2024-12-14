@@ -1,0 +1,5 @@
+org.bookshop.project
+org.bookshop.project.entities
+org.bookshop.project.repositories
+org.bookshop.project.service.BookService
+org.bookshop.project.services
