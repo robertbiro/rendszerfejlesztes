@@ -1,5 +1,10 @@
 package org.bookshop.project.entities;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Book {
 
     private Long id;
